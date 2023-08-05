@@ -116,7 +116,7 @@ public class Ejercicios_23_al_33 {
     }
 
     public static void buscarUnElementoEnUnaLista(int[] numeros, int elemento){
-        ArrayList<Integer> indices = new ArrayList<Integer>();
+        ArrayList<Integer> indices = new ArrayList<>();
         for (int i=0; i<numeros.length; i++){
             if (elemento == numeros[i]){
                 indices.add(i);
